@@ -1,0 +1,43 @@
+{
+  "name": "scoped-modules-checker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/scoped-modules-checker.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/scoped-modules-checker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/scoped-modules-checker/issues"
+  },
+  "version": "1.0.0",
+  "description": "The check function for npm scoped modules.",
+  "main": "lib/checker.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps-inline",
+    "watch": "babel src --out-dir lib --watch --source-maps-inline",
+    "test": "npm run build && mocha"
+  },
+  "keywords": [
+    "npm",
+    "check",
+    "checker",
+    "module",
+    "private"
+  ],
+  "devDependencies": {
+    "babel": "^5.0.8",
+    "espower-loader": "^0.10.0",
+    "intelli-espower-loader": "^0.6.0",
+    "mocha": "^2.2.1",
+    "power-assert": "^0.10.2"
+  }
+}
