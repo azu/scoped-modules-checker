@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/scoped-modules-checker/issues"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The check function for npm scoped modules.",
   "main": "lib/checker.js",
   "files": [
