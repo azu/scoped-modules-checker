@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/scoped-modules-checker/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The check function for npm scoped modules.",
   "main": "lib/checker.js",
   "files": [
@@ -43,6 +43,5 @@
   "bin": {
     "scoped-modules-checker": "cmd.js"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
