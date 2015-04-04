@@ -1,4 +1,4 @@
-# scoped-modules-checker
+# scoped-modules-checker [![Build Status](https://travis-ci.org/azu/scoped-modules-checker.svg?branch=master)](https://travis-ci.org/azu/scoped-modules-checker)
 
 To check the package is [scoped packages](https://docs.npmjs.com/misc/scope "Scoped packages").
 
