@@ -41,7 +41,7 @@
     "power-assert": "^0.10.2"
   },
   "bin": {
-    "scoped-modules-checker": "cmd.js"
+    "scoped-modules-checker": "bin/cmd.js"
   },
   "dependencies": {}
 }
